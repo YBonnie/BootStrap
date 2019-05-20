@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<!-- meta:compat   兼容浏览器IE7-->
+		<meta http-equiv="X-UA-Compatible" content="IE=7" />
+		<!-- meta:vp -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+		<title>新手介绍</title>
+		<!-- link:favicon 生成站点图标 -->
+		<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+
+		<link rel="stylesheet" type="text/css" href="../lib/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="../css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="../css/pe-icon-7-stroke.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />
+	</head>
+
+	<body>
+		<!--【1-头部区域】-->
+		<header class="wjs_topBar hidden-sm hidden-xs">
+			<!--container大容器：此处的代码会显示在一个固定宽度
+				且居中的容器中该容器的宽度会跟随屏幕的变化而变化-->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+						<a href="#" class="wjs_app">
+							<span class="wjs_icon wjs_icon_phone"></span>
+							<span>手机微金所</span>
+							<span class="glyphicon glyphicon-menu-down"></span>
+							<img src="../images/code.jpg" />
+						</a>
+					</div>
+					<div class="col-md-5">
+						<span class="wjs_icon wjs_icon_tel"></span>
+						<span>4006-89-4006(服务时间：9：00-21：00)</span>
+					</div>
+					<div class="col-md-2">
+						<a href="#">常见问题</a>
+						<a href="#" class="ml_10">财富登录</a>
+					</div>
+					<div class="col-md-3">
+						<a href="#register" class="btn btn-danger btn-register" data-toggle="modal" data-target="#register">免费注册</a>
+						<a href="#myModal" class="btn btn-link btn-login" data-toggle="modal" data-target="#myModal">登录</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--/头部区域-->
+
+		<!--【2-导航栏】-->
+		<div class="navbar wjs_navbar">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">
+						<span class="wjs_icon wjs_icon_logo"></span>
+						<span class="wjs_icon wjs_icon_word"></span>
+					</a>
+				</div>
+				<!--================-->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<!--li*6>a[href=#]-->
+						<li>
+							<a href="index.html">我要投资</a>
+						</li>
+						<li>
+							<a href="debit.html">我要借贷</a>
+						</li>
+						<li>
+							<a href="introduction.html">平台介绍</a>
+						</li>
+						<li class="active">
+							<a href="newsIntroduction.html">新手介绍</a>
+						</li>
+						<li>
+							<a href="Messages.html">最新动态</a>
+						</li>
+						<li>
+							<a href="#">微平台</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right hidden-sm">
+						<li>
+							<a href="#">个人中心</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--//导航栏-->
+		<!-- 模态框注册窗口 -->
+		<div id="register" class="modal fade" tabindex="-1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<button class="close" data-dismiss="modal">
+                         <span>&times;</span>
+                      </button>
+					</div>
+					<div class="modal-title">
+						<h1 class="text-center">注册</h1>
+					</div>
+					<div class="modal-body">
+						<form class="form-group" action="">
+							<div class="form-group">
+								<label for="">用户名</label>
+								<input class="form-control" type="text" placeholder="6-15位字母或数字">
+							</div>
+							<div class="form-group">
+								<label for="">密码</label>
+								<input class="form-control" type="password" placeholder="至少6位字母或数字">
+							</div>
+							<div class="form-group">
+								<label for="">再次输入密码</label>
+								<input class="form-control" type="password" placeholder="至少6位字母或数字">
+							</div>
+							<div class="form-group">
+								<label for="">邮箱</label>
+								<input class="form-control" type="email" placeholder="例如:123@123.com">
+							</div>
+							<div class="text-right">
+								<button class="btn btn-primary" type="submit">提交</button>
+								<button class="btn btn-danger" data-dismiss="modal">取消</button>
+							</div>
+							<a href="" data-toggle="modal" data-dismiss="modal" data-target="#myModal">已有账号？点我登录</a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--新人介绍-->
+		<div class="news-banner text-center wow slideInLeft" data-wow-duration="2s">
+			<h3>About Newser</h3>
+		</div>
+		<!--新人介绍-->
+
+		<!--新人练习方式-->
+		<div id="mission-vision" class="wow fadeInUp" data-wow-duration="2s">
+			<div class="container">
+				<div class="mission-vision">
+					<div class="row">
+						<div class="col-sm-12 col-md-5 wow  slideInLeft" data-wow-duration="2s">
+							<img src="../images/img2.png" alt="Image">
+						</div>
+						<div class="col-sm-12 col-md-7 wow  slideInRight" data-wow-duration="2s">
+							<div class="content">
+								<div class="mission misTop">
+									<div class="sec-title m-b-20 text-left">
+										<h3>Mission</h3>
+									</div>
+									<h5>Valuable counselling requires insight. We take the time to understand our clients businesses.</h5>
+									<p>Brandt &amp; Lauritzen is a specialised Danish law firm with business-minded attorneys.</p>
+									<p>We ensure value-creating counselling by combining our in-depth knowledge of the legal framework in Denmark and our understanding of the business side of the matters. We believe valuable counselling requires more than simply an understanding of the legal issues at hand,it also requires insight into our clients industries in a commercial context.</p>
+								</div>
+								<div class="vision misTop">
+									<div class="sec-title m-b-20 text-left">
+										<h3>Vision</h3>
+									</div>
+									<h5>Valuable counselling requires insight. We take the time to understand our clients businesses.</h5>
+									<p>Brandt &amp; Lauritzen is a specialised Danish law firm with business-minded attorneys.</p>
+									<p>We ensure value-creating counselling by combining our in-depth knowledge of the legal framework in Denmark and our understanding of the business side of the matters. We believe valuable counselling requires more than simply an understanding of the legal issues at hand,it also requires insight into our clients industries in a commercial context.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--新人练习方式-->
+
+		<!--新人介绍排版-->
+		<div class="newer-box wow fadeInUp" data-wow-duration="2s">
+			<div class="container">
+				<h2 class="wow pulse" data-wow-duration="2s">Meet Our Awesome Team</h2>
+				<span class="double-border wow" data-wow-duration="2s"></span>
+				<p class="col-sm-12 wow fadeIn" data-wow-duration="2s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.
+				</p>
+				<div class="row wow fadeInUp newPerson" data-wow-duration="2s">
+					<div class="col-sm-12 col-md-3">
+						<div class="single-team-item">
+							<img src="../images/team/1.jpg" alt="">
+							<div class="single-team-item-hover">
+								<div class="single-team-item-hover-content">
+									<h3>David Warnar</h3>
+									<h4>UI / UX Designer</h4>
+								</div>
+								<div class="single-team-item-hover-icon">
+									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href=""><i class="fa fa-link"></i></a>
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-google-plus"></i></a>
+									<a href=""><i class="fa fa-pinterest-p"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-3">
+						<div class="single-team-item">
+							<img src="../images/team/2.jpg" alt="">
+							<div class="single-team-item-hover">
+								<div class="single-team-item-hover-content">
+									<h3>David Warnar</h3>
+									<h4>UI / UX Designer</h4>
+								</div>
+								<div class="single-team-item-hover-icon">
+									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href=""><i class="fa fa-link"></i></a>
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-google-plus"></i></a>
+									<a href=""><i class="fa fa-pinterest-p"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-3">
+						<div class="single-team-item">
+							<img src="../images/team/3.jpg" alt="">
+							<div class="single-team-item-hover">
+								<div class="single-team-item-hover-content">
+									<h3>David Warnar</h3>
+									<h4>UI / UX Designer</h4>
+								</div>
+								<div class="single-team-item-hover-icon">
+									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href=""><i class="fa fa-link"></i></a>
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-google-plus"></i></a>
+									<a href=""><i class="fa fa-pinterest-p"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-3">
+						<div class="single-team-item">
+							<img src="../images/team/4.jpg" alt="">
+							<div class="single-team-item-hover">
+								<div class="single-team-item-hover-content">
+									<h3>David Warnar</h3>
+									<h4>UI / UX Designer</h4>
+								</div>
+								<div class="single-team-item-hover-icon">
+									<a href=""><i class="fa fa-twitter"></i></a>
+									<a href=""><i class="fa fa-link"></i></a>
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-google-plus"></i></a>
+									<a href=""><i class="fa fa-pinterest-p"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--新人介绍排版-->
+
+		<!--【8-合作伙伴】-->
+		<div class="wjs_partner hidden-sm hidden-xs">
+			<div class="container">
+				<div class="row">
+					<h2 class="text-center">合作伙伴</h2>
+					<ul class="wjs_partner_logo">
+						<li>
+							<a href="#">
+								<span class="wjs_icon wjs_icon_parter01"></span>
+							</a>
+						</li>
+						<!--==================-->
+						<li>
+							<a href="#">
+								<span class="wjs_icon wjs_icon_parter02"></span>
+							</a>
+						</li>
+						<!--==================-->
+						<li>
+							<a href="#">
+								<span class="wjs_icon wjs_icon_parter03"></span>
+							</a>
+						</li>
+						<!--==================-->
+						<li>
+							<a href="#">
+								<span class="wjs_icon wjs_icon_parter04"></span>
+							</a>
+						</li>
+						<!--==================-->
+						<li>
+							<a href="#">
+								<span class="wjs_icon wjs_icon_parter05"></span>
+							</a>
+						</li>
+						<!--==================-->
+						<li>
+							<a href="#">
+								<span class="wjs_icon wjs_icon_parter06"></span>
+							</a>
+						</li>
+						<!--==================-->
+						<li>
+							<a href="#">
+								<span class="wjs_icon wjs_icon_parter07"></span>
+							</a>
+						</li>
+						<!--==================-->
+						<li>
+							<a href="#">
+								<span class="wjs_icon wjs_icon_parter08"></span>
+							</a>
+						</li>
+						<!--==================-->
+						<li>
+							<a href="#">
+								<span class="wjs_icon wjs_icon_parter09"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<!--/合作伙伴-->
+
+		<!-- 模态框登录窗口 -->
+		<div id="myModal" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<button class="close" data-dismiss="modal">
+                          <span>&times;</span>
+                      </button>
+					</div>
+					<div class="modal-title">
+						<h1 class="text-center">登录</h1>
+					</div>
+					<div class="modal-body">
+						<form class="form-group" action="">
+							<div class="form-group">
+								<label for="">用户名</label>
+								<input class="form-control" type="text" placeholder="">
+							</div>
+							<div class="form-group">
+								<label for="">密码</label>
+								<input class="form-control" type="password" placeholder="">
+							</div>
+							<div class="text-right">
+								<button class="btn btn-primary" type="submit">登录</button>
+								<button class="btn btn-danger" data-dismiss="modal">取消</button>
+							</div>
+							<a href="" data-toggle="modal" data-dismiss="modal" data-target="#register">还没有账号？点我注册</a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	<script src="../lib/jquery/jquery.js " type="text/javascript " charset="utf-8 "></script>
+	<script src="../lib/bootstrap/js/bootstrap.js " type="text/javascript " charset="utf-8 "></script>
+	<script src="../js/wow.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/index.js " type="text/javascript " charset="utf-8 "></script>
+
+</html>
